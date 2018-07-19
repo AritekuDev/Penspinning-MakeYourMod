@@ -1,0 +1,459 @@
+<RCC>
+    <qresource prefix="/patterns">
+        <file>retro_intro.png</file>
+        <file>whirlpool.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall">
+        <file>WaterfallProporcjonalny.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Body">
+        <file>Body/black.png</file>
+        <file>Body/green.png</file>
+        <file>Body/magenta.png</file>
+        <file>Body/pink.png</file>
+        <file>Body/red.png</file>
+        <file>Body/skyblue.png</file>
+        <file>Body/violet.png</file>
+        <file>Body/white.png</file>
+        <file>Body/yellow.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Capy"/>
+    <qresource prefix="/Waterfall/Capy/Left">
+        <file>Capy/Left/black.png</file>
+        <file>Capy/Left/darkblue.png</file>
+        <file>Capy/Left/lightgreen.png</file>
+        <file>Capy/Left/orange.png</file>
+        <file>Capy/Left/pink.png</file>
+        <file>Capy/Left/red.png</file>
+        <file>Capy/Left/skyblue.png</file>
+        <file>Capy/Left/violet.png</file>
+        <file>Capy/Left/yellow.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Capy/Right">
+        <file>Capy/Right/black.png</file>
+        <file>Capy/Right/darkblue.png</file>
+        <file>Capy/Right/lightgreen.png</file>
+        <file>Capy/Right/orange.png</file>
+        <file>Capy/Right/pink.png</file>
+        <file>Capy/Right/red.png</file>
+        <file>Capy/Right/skyblue.png</file>
+        <file>Capy/Right/violet.png</file>
+        <file>Capy/Right/yellow.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Gripy/Left">
+        <file>Gripy/Left/black.png</file>
+        <file>Gripy/Left/white.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Gripy/Right">
+        <file>Gripy/Right/black.png</file>
+        <file>Gripy/Right/white.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Gripy/Anyballe">
+        <file>Gripy/Anyballs/Left/red.png</file>
+        <file>Gripy/Anyballs/Left/darkblue.png</file>
+        <file>Gripy/Anyballs/Left/orange.png</file>
+        <file>Gripy/Anyballs/Left/skyblue.png</file>
+        <file>Gripy/Anyballs/Left/yellow.png</file>
+        <file>Gripy/Anyballs/Left/darkgreen.png</file>
+        <file>Gripy/Anyballs/Left/lightgreen.png</file>
+        <file>Gripy/Anyballs/Left/pink.png</file>
+        <file>Gripy/Anyballs/Left/violet.png</file>
+        <file>Gripy/Anyballs/Left/white.png</file>
+        <file>Gripy/Anyballs/Left/black.png</file>
+        <file>Gripy/Anyballs/Left/grey.png</file>
+    </qresource>
+    <qresource prefix="/Waterfall/Gripy/Anyballs">
+        <file>Gripy/Anyballs/Right/red.png</file>
+        <file>Gripy/Anyballs/Right/darkblue.png</file>
+        <file>Gripy/Anyballs/Right/darkgreen.png</file>
+        <file>Gripy/Anyballs/Right/lightgreen.png</file>
+        <file>Gripy/Anyballs/Right/orange.png</file>
+        <file>Gripy/Anyballs/Right/pink.png</file>
+        <file>Gripy/Anyballs/Right/skyblue.png</file>
+        <file>Gripy/Anyballs/Right/violet.png</file>
+        <file>Gripy/Anyballs/Right/yellow.png</file>
+        <file>Gripy/Anyballs/Right/black.png</file>
+        <file>Gripy/Anyballs/Right/grey.png</file>
+        <file>Gripy/Anyballs/Right/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa">
+        <file>MenowaLight/big.png</file>
+        <file>MenowaLight/connector.png</file>
+        <file>MenowaLight/alert.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left"/>
+    <qresource prefix="/Menowa/Left/Body">
+        <file>MenowaLight/Bodyleft/darkblue.png</file>
+        <file>MenowaLight/Bodyleft/green.png</file>
+        <file>MenowaLight/Bodyleft/orange.png</file>
+        <file>MenowaLight/Bodyleft/pink.png</file>
+        <file>MenowaLight/Bodyleft/red.png</file>
+        <file>MenowaLight/Bodyleft/skyblue.png</file>
+        <file>MenowaLight/Bodyleft/violet.png</file>
+        <file>MenowaLight/Bodyleft/yellow.png</file>
+        <file>MenowaLight/Bodyleft/black.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right"/>
+    <qresource prefix="/Menowa/Right/Body">
+        <file>MenowaLight/Bodyright/darkblue.png</file>
+        <file>MenowaLight/Bodyright/green.png</file>
+        <file>MenowaLight/Bodyright/orange.png</file>
+        <file>MenowaLight/Bodyright/pink.png</file>
+        <file>MenowaLight/Bodyright/red.png</file>
+        <file>MenowaLight/Bodyright/skyblue.png</file>
+        <file>MenowaLight/Bodyright/violet.png</file>
+        <file>MenowaLight/Bodyright/yellow.png</file>
+        <file>MenowaLight/Bodyright/black.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Capy">
+        <file>MenowaLight/Capleft/lightgreen.png</file>
+        <file>MenowaLight/Capleft/orange.png</file>
+        <file>MenowaLight/Capleft/red.png</file>
+        <file>MenowaLight/Capleft/yellow.png</file>
+        <file>MenowaLight/Capleft/mint.png</file>
+        <file>MenowaLight/Capleft/darkblue.png</file>
+        <file>MenowaLight/Capleft/grey.png</file>
+        <file>MenowaLight/Capleft/pink.png</file>
+        <file>MenowaLight/Capleft/skyblue.png</file>
+        <file>MenowaLight/Capleft/violet.png</file>
+        <file>MenowaLight/Capleft/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Capy">
+        <file>MenowaLight/Capright/darkblue.png</file>
+        <file>MenowaLight/Capright/grey.png</file>
+        <file>MenowaLight/Capright/lightgreen.png</file>
+        <file>MenowaLight/Capright/mint.png</file>
+        <file>MenowaLight/Capright/orange.png</file>
+        <file>MenowaLight/Capright/pink.png</file>
+        <file>MenowaLight/Capright/red.png</file>
+        <file>MenowaLight/Capright/skyblue.png</file>
+        <file>MenowaLight/Capright/violet.png</file>
+        <file>MenowaLight/Capright/yellow.png</file>
+        <file>MenowaLight/Capright/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Down/L1">
+        <file>MenowaLight/SailorLeft/Down/L1/red.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/orange.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/pink.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/violet.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/grey.png</file>
+        <file>MenowaLight/SailorLeft/Down/L1/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Down/L2">
+        <file>MenowaLight/SailorLeft/Down/L2/red.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/orange.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/pink.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/violet.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/white.png</file>
+        <file>MenowaLight/SailorLeft/Down/L2/grey.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Down/L3">
+        <file>MenowaLight/SailorLeft/Down/L3/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/orange.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/pink.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/red.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/violet.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/grey.png</file>
+        <file>MenowaLight/SailorLeft/Down/L3/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Down/L4">
+        <file>MenowaLight/SailorLeft/Down/L4/orange.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/red.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/pink.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/violet.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/grey.png</file>
+        <file>MenowaLight/SailorLeft/Down/L4/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Up/SL1">
+        <file>MenowaLight/SailorLeft/Up/SL1/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/orange.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/pink.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/red.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/violet.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/white.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/black.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL1/grey.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Down/L5">
+        <file>MenowaLight/SailorLeft/Down/L5/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/orange.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/pink.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/red.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/violet.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/grey.png</file>
+        <file>MenowaLight/SailorLeft/Down/L5/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Up/SL2">
+        <file>MenowaLight/SailorLeft/Up/SL2/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/grey.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/orange.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/pink.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/red.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/violet.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/white.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL2/yellow.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Up/SL3">
+        <file>MenowaLight/SailorLeft/Up/SL3/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/orange.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/pink.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/red.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/violet.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/yellow.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/black.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/white.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL3/grey.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Left/Anyballs/Up/SL4">
+        <file>MenowaLight/SailorLeft/Up/SL4/white.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/black.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/grey.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/darkblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/darkgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/lightgreen.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/orange.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/pink.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/red.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/skyblue.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/violet.png</file>
+        <file>MenowaLight/SailorLeft/Up/SL4/yellow.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Down/R1">
+        <file>MenowaLight/SailorRight/Down/R1/red.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/orange.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/pink.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/violet.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/yellow.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/grey.png</file>
+        <file>MenowaLight/SailorRight/Down/R1/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Down/R2">
+        <file>MenowaLight/SailorRight/Down/R2/red.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/orange.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/pink.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/violet.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/yellow.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/grey.png</file>
+        <file>MenowaLight/SailorRight/Down/R2/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Down/R3">
+        <file>MenowaLight/SailorRight/Down/R3/red.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/orange.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/pink.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/violet.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/yellow.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/grey.png</file>
+        <file>MenowaLight/SailorRight/Down/R3/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Down/R4">
+        <file>MenowaLight/SailorRight/Down/R4/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/orange.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/pink.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/violet.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/yellow.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/red.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/grey.png</file>
+        <file>MenowaLight/SailorRight/Down/R4/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Down/R5">
+        <file>MenowaLight/SailorRight/Down/R5/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/orange.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/pink.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/red.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/violet.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/yellow.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/grey.png</file>
+        <file>MenowaLight/SailorRight/Down/R5/white.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Up/SR1">
+        <file>MenowaLight/SailorRight/Up/SR1/red.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/orange.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/pink.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/violet.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/yellow.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/black.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/white.png</file>
+        <file>MenowaLight/SailorRight/Up/SR1/grey.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Up/SR2">
+        <file>MenowaLight/SailorRight/Up/SR2/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/orange.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/pink.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/red.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/violet.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/yellow.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/grey.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/white.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR2/skyblue.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Up/SR3">
+        <file>MenowaLight/SailorRight/Up/SR3/red.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/orange.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/pink.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/violet.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/yellow.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/black.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/white.png</file>
+        <file>MenowaLight/SailorRight/Up/SR3/grey.png</file>
+    </qresource>
+    <qresource prefix="/Menowa/Right/Anyballs/Up/SR4">
+        <file>MenowaLight/SailorRight/Up/SR4/black.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/darkblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/darkgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/grey.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/lightgreen.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/orange.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/pink.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/red.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/skyblue.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/violet.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/white.png</file>
+        <file>MenowaLight/SailorRight/Up/SR4/yellow.png</file>
+    </qresource>
+    <qresource prefix="/Buster/Body">
+        <file>BusterCyl/body/black.png</file>
+        <file>BusterCyl/body/darkblue.png</file>
+        <file>BusterCyl/body/lightgreen.png</file>
+        <file>BusterCyl/body/orange.png</file>
+        <file>BusterCyl/body/red.png</file>
+        <file>BusterCyl/body/skyblue.png</file>
+        <file>BusterCyl/body/violet.png</file>
+        <file>BusterCyl/body/yellow.png</file>
+        <file>BusterCyl/body/pink.png</file>
+    </qresource>
+    <qresource prefix="/Buster">
+        <file>BusterCyl/body.png</file>
+        <file>BusterCyl/full.png</file>
+    </qresource>
+    <qresource prefix="/Buster/LeftCap">
+        <file>BusterCyl/capLeft/red.png</file>
+        <file>BusterCyl/capLeft/darkblue.png</file>
+        <file>BusterCyl/capLeft/darkgreen.png</file>
+        <file>BusterCyl/capLeft/blue.png</file>
+        <file>BusterCyl/capLeft/orange.png</file>
+        <file>BusterCyl/capLeft/violet.png</file>
+        <file>BusterCyl/capLeft/yellow.png</file>
+        <file>BusterCyl/capLeft/pink.png</file>
+        <file>BusterCyl/capLeft/black.png</file>
+    </qresource>
+    <qresource prefix="/Buster/RightCap">
+        <file>BusterCyl/capRight/blue.png</file>
+        <file>BusterCyl/capRight/darkblue.png</file>
+        <file>BusterCyl/capRight/darkgreen.png</file>
+        <file>BusterCyl/capRight/pink.png</file>
+        <file>BusterCyl/capRight/violet.png</file>
+        <file>BusterCyl/capRight/orange.png</file>
+        <file>BusterCyl/capRight/red.png</file>
+        <file>BusterCyl/capRight/yellow.png</file>
+        <file>BusterCyl/capRight/black.png</file>
+    </qresource>
+    <qresource prefix="/Buster/LeftSailor/S1">
+        <file>BusterCyl/SailorLeft/s1/blue.png</file>
+        <file>BusterCyl/SailorLeft/s1/darkblue.png</file>
+        <file>BusterCyl/SailorLeft/s1/green.png</file>
+        <file>BusterCyl/SailorLeft/s1/orange.png</file>
+        <file>BusterCyl/SailorLeft/s1/pink.png</file>
+        <file>BusterCyl/SailorLeft/s1/red.png</file>
+        <file>BusterCyl/SailorLeft/s1/violet.png</file>
+        <file>BusterCyl/SailorLeft/s1/yellow.png</file>
+        <file>BusterCyl/SailorLeft/s1/grey.png</file>
+        <file>BusterCyl/SailorLeft/s1/white.png</file>
+    </qresource>
+    <qresource prefix="/Buster/LeftSailor/S2">
+        <file>BusterCyl/SailorLeft/s2/blue.png</file>
+        <file>BusterCyl/SailorLeft/s2/darkblue.png</file>
+        <file>BusterCyl/SailorLeft/s2/green.png</file>
+        <file>BusterCyl/SailorLeft/s2/orange.png</file>
+        <file>BusterCyl/SailorLeft/s2/pink.png</file>
+        <file>BusterCyl/SailorLeft/s2/red.png</file>
+        <file>BusterCyl/SailorLeft/s2/violet.png</file>
+        <file>BusterCyl/SailorLeft/s2/yellow.png</file>
+        <file>BusterCyl/SailorLeft/s2/grey.png</file>
+        <file>BusterCyl/SailorLeft/s2/white.png</file>
+    </qresource>
+    <qresource prefix="/Buster/RightSailor/S1">
+        <file>BusterCyl/SailorRight/S1/blue.png</file>
+        <file>BusterCyl/SailorRight/S1/darkblue.png</file>
+        <file>BusterCyl/SailorRight/S1/green.png</file>
+        <file>BusterCyl/SailorRight/S1/orange.png</file>
+        <file>BusterCyl/SailorRight/S1/pink.png</file>
+        <file>BusterCyl/SailorRight/S1/purple.png</file>
+        <file>BusterCyl/SailorRight/S1/red.png</file>
+        <file>BusterCyl/SailorRight/S1/yellow.png</file>
+        <file>BusterCyl/SailorRight/S1/grey.png</file>
+        <file>BusterCyl/SailorRight/S1/white.png</file>
+    </qresource>
+    <qresource prefix="/Buster/RightSailor/S2">
+        <file>BusterCyl/SailorRight/S2/blue.png</file>
+        <file>BusterCyl/SailorRight/S2/darkblue.png</file>
+        <file>BusterCyl/SailorRight/S2/green.png</file>
+        <file>BusterCyl/SailorRight/S2/orange.png</file>
+        <file>BusterCyl/SailorRight/S2/pink.png</file>
+        <file>BusterCyl/SailorRight/S2/red.png</file>
+        <file>BusterCyl/SailorRight/S2/violet.png</file>
+        <file>BusterCyl/SailorRight/S2/yellow.png</file>
+        <file>BusterCyl/SailorRight/S2/grey.png</file>
+        <file>BusterCyl/SailorRight/S2/white.png</file>
+    </qresource>
+</RCC>

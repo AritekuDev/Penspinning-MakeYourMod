@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Waterfall Mod - Penspinning Make your Mod</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="leftPanel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>150</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rightPanel">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>0</y>
+      <width>150</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BackgroundCenter">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>0</y>
+      <width>700</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="WaterfallSwitch">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Waterfall</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Switch_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Buster Cyl</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Switch_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Menowa* Mod</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Switch_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Metal Comssa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Switch_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>DR. CT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Switch_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>RSVP MX</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Body">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>0</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Body</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Capy">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>100</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Capy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gripy">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>200</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Gripy</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>855</x>
+      <y>360</y>
+      <width>140</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string> Left Body</string>
+    </property>
+    <widget class="QPushButton" name="CWhite">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CBlack">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CRed">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CYellow">
+     <property name="geometry">
+      <rect>
+       <x>104</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CGreen">
+     <property name="geometry">
+      <rect>
+       <x>37</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CSkyBlue">
+     <property name="geometry">
+      <rect>
+       <x>37</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CViolet">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CPink">
+     <property name="geometry">
+      <rect>
+       <x>104</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CTransparent">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>91</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CDarkBlue">
+     <property name="geometry">
+      <rect>
+       <x>37</x>
+       <y>91</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="COrange">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>91</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>855</x>
+      <y>500</y>
+      <width>140</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Right Body</string>
+    </property>
+    <widget class="QPushButton" name="CTransparent_2">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>91</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CYellow_2">
+     <property name="geometry">
+      <rect>
+       <x>104</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CBlack_2">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CDarkBlue_2">
+     <property name="geometry">
+      <rect>
+       <x>37</x>
+       <y>91</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="COrange_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>91</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CViolet_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CPink_2">
+     <property name="geometry">
+      <rect>
+       <x>104</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CSkyBlue_2">
+     <property name="geometry">
+      <rect>
+       <x>37</x>
+       <y>58</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CRed_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CGreen_2">
+     <property name="geometry">
+      <rect>
+       <x>37</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CWhite_2">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>25</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>300</y>
+      <width>130</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelEdit">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>315</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edytujesz: BODY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>671</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Wyjście</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="open">
+    <property name="geometry">
+     <rect>
+      <x>361</x>
+      <y>20</y>
+      <width>103</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Otworz Kompozycje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="language">
+    <property name="geometry">
+     <rect>
+      <x>581</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>English Version</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settins">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Restart Kompozycji</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>20</y>
+      <width>98</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zapisz Kompozycje</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WaterfalOriginal">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>280</y>
+      <width>690</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/Waterfall/WaterfallProporcjonalny.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Part_Body">
+    <property name="geometry">
+     <rect>
+      <x>332</x>
+      <y>289</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="part_leftCap">
+    <property name="geometry">
+     <rect>
+      <x>187</x>
+      <y>289</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="part_rightCap">
+    <property name="geometry">
+     <rect>
+      <x>671</x>
+      <y>277</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="part_leftGrip">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>284</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="part_rightGrip">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>280</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>650</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kompozycja Pasków</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>660</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Licencje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_4">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>660</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kontakt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_5">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>660</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Części</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_6">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>660</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Autorzy</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="GroupBoxSailors">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>450</y>
+      <width>471</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>451</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QComboBox" name="comboBox"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_3"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_4"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>451</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Pierwszy</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Drugi</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Trzeci</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Czwarty</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="whatAreYouEditing">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="whatAreYouEditing_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>30</y>
+       <width>131</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>96</y>
+       <width>451</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>361</x>
+       <y>1</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>0</y>
+       <width>121</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="LeftSide">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>25</y>
+        <width>84</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Lewa Strona</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RightSide">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>84</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Prawa Strona</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sailorSubmit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>75</y>
+        <width>84</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Zatwierdź</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="LeftSideCheckbox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>25</y>
+        <width>84</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Lewa Strona</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="RightSideCheckbox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>84</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Prawa Strona</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>layoutWidget</zorder>
+    <zorder>layoutWidget</zorder>
+    <zorder>whatAreYouEditing</zorder>
+    <zorder>whatAreYouEditing_2</zorder>
+    <zorder>line_2</zorder>
+    <zorder>groupBox_3</zorder>
+    <zorder>toolButton</zorder>
+   </widget>
+   <widget class="QLabel" name="sailorLeftOne">
+    <property name="geometry">
+     <rect>
+      <x>263</x>
+      <y>280</y>
+      <width>21</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorLeftTwo">
+    <property name="geometry">
+     <rect>
+      <x>271</x>
+      <y>280</y>
+      <width>21</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorLeftThree">
+    <property name="geometry">
+     <rect>
+      <x>278</x>
+      <y>280</y>
+      <width>21</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorLeftFour">
+    <property name="geometry">
+     <rect>
+      <x>285</x>
+      <y>280</y>
+      <width>21</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorRightFour">
+    <property name="geometry">
+     <rect>
+      <x>729</x>
+      <y>284</y>
+      <width>21</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorRightThree">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>284</y>
+      <width>21</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorRightTwo">
+    <property name="geometry">
+     <rect>
+      <x>712</x>
+      <y>284</y>
+      <width>21</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sailorRightOne">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>284</y>
+      <width>21</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Switch_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>ARITEKU.PL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>630</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>© Arteq 2018</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>50</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fff;
+font: 40pt;</string>
+    </property>
+    <property name="text">
+     <string>Waterfall MOD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateApp">
+    <property name="geometry">
+     <rect>
+      <x>859</x>
+      <y>670</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sprawdź Aktualizacje</string>
+    </property>
+   </widget>
+   <zorder>BackgroundCenter</zorder>
+   <zorder>leftPanel</zorder>
+   <zorder>rightPanel</zorder>
+   <zorder>WaterfallSwitch</zorder>
+   <zorder>Switch_2</zorder>
+   <zorder>Switch_3</zorder>
+   <zorder>Switch_4</zorder>
+   <zorder>Switch_5</zorder>
+   <zorder>Switch_6</zorder>
+   <zorder>Body</zorder>
+   <zorder>Capy</zorder>
+   <zorder>Gripy</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>line</zorder>
+   <zorder>LabelEdit</zorder>
+   <zorder>exit</zorder>
+   <zorder>open</zorder>
+   <zorder>language</zorder>
+   <zorder>settins</zorder>
+   <zorder>save</zorder>
+   <zorder>WaterfalOriginal</zorder>
+   <zorder>Part_Body</zorder>
+   <zorder>part_leftCap</zorder>
+   <zorder>part_leftGrip</zorder>
+   <zorder>save_2</zorder>
+   <zorder>save_3</zorder>
+   <zorder>save_4</zorder>
+   <zorder>save_5</zorder>
+   <zorder>save_6</zorder>
+   <zorder>GroupBoxSailors</zorder>
+   <zorder>sailorLeftOne</zorder>
+   <zorder>sailorLeftTwo</zorder>
+   <zorder>sailorLeftThree</zorder>
+   <zorder>sailorLeftFour</zorder>
+   <zorder>Switch_7</zorder>
+   <zorder>part_rightCap</zorder>
+   <zorder>part_rightGrip</zorder>
+   <zorder>label</zorder>
+   <zorder>sailorRightFour</zorder>
+   <zorder>sailorRightThree</zorder>
+   <zorder>sailorRightTwo</zorder>
+   <zorder>sailorRightOne</zorder>
+   <zorder>title</zorder>
+   <zorder>updateApp</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
